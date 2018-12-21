@@ -18,7 +18,7 @@
                     <div class="card" style="border: none">
                         <img class="card-img-top" src="@Html.DisplayFor(m => item.ImageUrl)" alt="image" style="width:100%">
                         <div class="card-body text-center" style="padding: 0px">
-                            <a href="@Url.Action("SingleProduct", "Product", new {Id = item.Id})">
+                            <a href="@Url.Action("SingleProduct", "Product", new {id = item.Id, productName = item.ProductName.ConvertToUnSign3().ToSeoUrl()})">
                                 <p class="card-text text-dark font-weight-bold">@Html.DisplayFor(m => item.Title)</p>
                             </a>
                         </div>
