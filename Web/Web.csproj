@@ -220,6 +220,7 @@
     <Compile Include="Models\CategoryProductView.cs" />
     <Compile Include="Models\CategoryView.cs" />
     <Compile Include="Models\News\NewsView.cs" />
+    <Compile Include="Models\PagingSeo.cs" />
     <Compile Include="Models\ProductModel\ProductView.cs" />
     <Compile Include="Models\Register\RegisterPost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -15,8 +15,8 @@ namespace Web
 
             routes.MapRoute(
                 "Category",
-                "danh-muc-san-pham/{id}",
-                new { controller = "Category", action = "View", id = UrlParameter.Optional },
+                "danh-muc-san-pham/{id}/{categoryName}",
+                new { controller = "Category", action = "View", id = UrlParameter.Optional, categoryName = UrlParameter.Optional },
                 new[] { "Web.Controllers" }
             );
 
