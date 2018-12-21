@@ -21,3 +21,15 @@ E:\Project\ESHOP\Models\obj\Debug\Models.csproj.CopyComplete
 E:\Project\ESHOP\Models\obj\Debug\Models.dll
 E:\Project\ESHOP\Models\obj\Debug\Models.pdb
 E:\Project\ESHOP\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\project\ESHOP\Models\bin\Debug\Models.dll.config
+C:\project\ESHOP\Models\bin\Debug\Models.dll
+C:\project\ESHOP\Models\bin\Debug\Models.pdb
+C:\project\ESHOP\Models\bin\Debug\EntityFramework.dll
+C:\project\ESHOP\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\project\ESHOP\Models\bin\Debug\EntityFramework.xml
+C:\project\ESHOP\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\project\ESHOP\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\project\ESHOP\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\project\ESHOP\Models\obj\Debug\Models.csproj.CopyComplete
+C:\project\ESHOP\Models\obj\Debug\Models.dll
+C:\project\ESHOP\Models\obj\Debug\Models.pdb

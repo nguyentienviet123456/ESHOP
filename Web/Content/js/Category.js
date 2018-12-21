@@ -11,7 +11,7 @@ $.ajax({
             var model = response.categories;
             for (i = 0; i < model.length; i++) {
 
-                var contentUrl = currentLocation+ "/Category/View?id=" + model[i].Id;
+                var contentUrl = currentLocation+ "/danh-muc-san-pham?id=" + model[i].Id;
 
                 contentNavbar += '<a class=\"dropdown-item\" href=\"' + contentUrl + '\">' + model[i].CategoryName + '</a>';
 

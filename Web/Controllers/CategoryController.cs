@@ -34,7 +34,8 @@ namespace Web.Controllers
         public ActionResult View(int id)
         {
             string actionName = this.ControllerContext.RouteData.Values["action"].ToString();
-            string controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
+            //string controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
+            string controllerName = "danh-muc-san-pham";
             int offset = 1;
             int Page = 1;
             int Take = 8;
