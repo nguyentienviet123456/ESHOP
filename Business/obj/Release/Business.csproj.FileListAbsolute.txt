@@ -34,3 +34,21 @@ D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.csproj.CoreComp
 D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.csproj.CopyComplete
 D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.dll
 D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.pdb
+C:\project\ESHOP\Business\bin\Release\Business.dll.config
+C:\project\ESHOP\Business\bin\Release\Business.dll
+C:\project\ESHOP\Business\bin\Release\Business.pdb
+C:\project\ESHOP\Business\bin\Release\DataAccess.dll
+C:\project\ESHOP\Business\bin\Release\EntityFramework.dll
+C:\project\ESHOP\Business\bin\Release\EntityFramework.SqlServer.dll
+C:\project\ESHOP\Business\bin\Release\Models.dll
+C:\project\ESHOP\Business\bin\Release\DataAccess.pdb
+C:\project\ESHOP\Business\bin\Release\DataAccess.dll.config
+C:\project\ESHOP\Business\bin\Release\Models.pdb
+C:\project\ESHOP\Business\bin\Release\Models.dll.config
+C:\project\ESHOP\Business\bin\Release\EntityFramework.xml
+C:\project\ESHOP\Business\bin\Release\EntityFramework.SqlServer.xml
+C:\project\ESHOP\Business\obj\Release\Business.csprojAssemblyReference.cache
+C:\project\ESHOP\Business\obj\Release\Business.csproj.CoreCompileInputs.cache
+C:\project\ESHOP\Business\obj\Release\Business.csproj.CopyComplete
+C:\project\ESHOP\Business\obj\Release\Business.dll
+C:\project\ESHOP\Business\obj\Release\Business.pdb

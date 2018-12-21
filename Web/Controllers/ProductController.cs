@@ -46,9 +46,17 @@ namespace Web.Controllers
         }
 
         [HttpGet]
-        public ActionResult SingleProduct(int id)
+        public ActionResult SingleProduct(int id, string productName)
         {
             var product = _productBusiness.GetProductById(id);
+            string expectedName = product.ProductName.ConvertToUnSign3().ToSeoUrl();
+            string actualName = (productName ?? "").ToLower();
+
+            // permanently redirect to the correct URL
+            if (expectedName != actualName)
+            {
+                return RedirectToActionPermanent("SingleProduct", "Product", new { id = product.Id, productName = expectedName });
+            }
             var model = Mapper.Map<ProductView>(product);
             ViewBag.Content = model.Content;
             return View(model);
