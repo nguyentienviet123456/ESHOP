@@ -1,0 +1,114 @@
+﻿@model Web.Areas.Admin.Models.AddProductModel
+@{
+    ViewBag.Title = "EditProduct";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Areas/Admin/Plugin/ckeditor/ckeditor.js"></script>
+
+<div class="text-center font-weight-bold">
+    <h2>Create Product</h2>
+</div>
+
+@using (Html.BeginForm("AddProduct", "Product", FormMethod.Post))
+{
+    <div class="row form-horizontal">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.ProductName, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.EditorFor(s => s.ProductName, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.ImageUrl, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.EditorFor(s => s.ImageUrl, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.Title, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.EditorFor(s => s.Title, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.Description, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.EditorFor(s => s.Description, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.Price, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.EditorFor(s => s.Price, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.PriceDiscount, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.EditorFor(s => s.PriceDiscount, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.Address, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.EditorFor(s => s.Address, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.CategoryId, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.DropDownListFor(s => s.CategoryId, @Model.AvailableCategories, new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.Content, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            @Html.TextAreaFor(s => s.Content, new { @class = "control-label", @id = "content" })
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <input type="submit" value="Add New" class="btn btn-form" />
+        </div>
+    </div>
+    @Html.HiddenFor(s => s.Id)
+}
+<script>CKEDITOR.replace("content");</script>
+

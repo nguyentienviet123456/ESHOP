@@ -1,0 +1,15 @@
+﻿@if (TempData["notifications.error"] != null)
+{
+    <div class="alert alert-danger alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+        @TempData["notifications.error"].ToString()
+    </div>
+}
+
+@if (TempData["notifications.success"] != null)
+{
+    <div class="alert alert-success alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+        @TempData["notifications.success"].ToString()
+    </div>
+}

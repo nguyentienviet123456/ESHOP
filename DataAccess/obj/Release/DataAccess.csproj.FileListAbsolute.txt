@@ -1,0 +1,42 @@
+E:\Project\ESHOP\DataAccess\bin\Release\DataAccess.dll.config
+E:\Project\ESHOP\DataAccess\bin\Release\DataAccess.dll
+E:\Project\ESHOP\DataAccess\bin\Release\DataAccess.pdb
+E:\Project\ESHOP\DataAccess\bin\Release\EntityFramework.dll
+E:\Project\ESHOP\DataAccess\bin\Release\EntityFramework.SqlServer.dll
+E:\Project\ESHOP\DataAccess\bin\Release\Google.Protobuf.dll
+E:\Project\ESHOP\DataAccess\bin\Release\Models.dll
+E:\Project\ESHOP\DataAccess\bin\Release\MySql.Data.dll
+E:\Project\ESHOP\DataAccess\bin\Release\MySql.Data.Entity.EF6.dll
+E:\Project\ESHOP\DataAccess\bin\Release\Models.pdb
+E:\Project\ESHOP\DataAccess\bin\Release\Models.dll.config
+E:\Project\ESHOP\DataAccess\bin\Release\EntityFramework.xml
+E:\Project\ESHOP\DataAccess\bin\Release\EntityFramework.SqlServer.xml
+E:\Project\ESHOP\DataAccess\bin\Release\Google.Protobuf.xml
+E:\Project\ESHOP\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+E:\Project\ESHOP\DataAccess\obj\Release\DataAccess.Migrations.createdb2.resources
+E:\Project\ESHOP\DataAccess\obj\Release\DataAccess.csproj.GenerateResource.cache
+E:\Project\ESHOP\DataAccess\obj\Release\DataAccess.csproj.CoreCompileInputs.cache
+E:\Project\ESHOP\DataAccess\obj\Release\DataAccess.csproj.CopyComplete
+E:\Project\ESHOP\DataAccess\obj\Release\DataAccess.dll
+E:\Project\ESHOP\DataAccess\obj\Release\DataAccess.pdb
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\DataAccess.dll.config
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\DataAccess.dll
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\DataAccess.pdb
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\EntityFramework.dll
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\EntityFramework.SqlServer.dll
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\Google.Protobuf.dll
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\Models.dll
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\MySql.Data.dll
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\MySql.Data.Entity.EF6.dll
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\Models.pdb
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\Models.dll.config
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\EntityFramework.xml
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\EntityFramework.SqlServer.xml
+D:\USB Drive\Project\Project\ESHOP\DataAccess\bin\Release\Google.Protobuf.xml
+D:\USB Drive\Project\Project\ESHOP\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\USB Drive\Project\Project\ESHOP\DataAccess\obj\Release\DataAccess.Migrations.createdb2.resources
+D:\USB Drive\Project\Project\ESHOP\DataAccess\obj\Release\DataAccess.csproj.GenerateResource.cache
+D:\USB Drive\Project\Project\ESHOP\DataAccess\obj\Release\DataAccess.csproj.CoreCompileInputs.cache
+D:\USB Drive\Project\Project\ESHOP\DataAccess\obj\Release\DataAccess.csproj.CopyComplete
+D:\USB Drive\Project\Project\ESHOP\DataAccess\obj\Release\DataAccess.dll
+D:\USB Drive\Project\Project\ESHOP\DataAccess\obj\Release\DataAccess.pdb

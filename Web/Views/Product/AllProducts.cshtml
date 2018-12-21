@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Models.Entity.Product>
+@{
+    ViewBag.Title = "Tất cả các sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* region content*@
+<div class="content-custom row">
+    @* region sidebar*@
+    <div class="sidebar-custon col-md-3">
+        @Html.Partial("_Sidebar")
+    </div>
+    @* end region*@
+
+    @* region main-content*@
+    <div class="main-content-custom col-md-9">
+        @Html.Partial("_listProduct", Model)
+    </div>
+    @* end region *@
+</div>
+@* end region *@
+

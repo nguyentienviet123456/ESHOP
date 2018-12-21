@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Prepare search";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model Web.Areas.Admin.Models.ViewImageModel
+<div class="row">
+    <h3>Search Image By Name</h3>
+    @using (Html.BeginForm("Search", "Image", FormMethod.Post))
+    {
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.Name, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    @Html.EditorFor(s => s.Name, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <input type="submit" value="Search" class="btn btn-form" />
+        </div>
+    }
+</div>
+

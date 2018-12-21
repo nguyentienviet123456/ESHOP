@@ -1,0 +1,68 @@
+﻿@model Web.Models.ProductModel.ProductView
+<div class="category-header">
+    <div>
+        <div class="card" style="border-top-width: 0px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px">
+            <h5 class="card-header bg-info ">@Html.DisplayFor(m => m.ProductName)</h5>
+        </div>
+    </div>
+</div>
+@*<div class="slider-product row">
+    <div class="single-product-custom col-lg-3 col-md-4 col-sm-12">
+        <div class="card-product-custom">
+            <div class="card">
+                <img class="card-img-top" src="@Html.DisplayFor(m => Model.ImageUrl)" alt="image" style="width:100%">
+                <div class="card-body" style="padding: 0px">
+                    <a href="@Url.Action("SingleProduct", "Product", new {id = Model.Id })">
+                        <p class="card-text text-center">@Html.DisplayFor(m => Model.Title)</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>*@
+<div id="product-info" style="padding-top: 50px">
+    <div class="row">
+        <div id="product-image" class="col-lg-5 col-md-5 col-sm-12">
+            <div class="card-product-custom">
+                <div class="card">
+                    <img class="card-img-top" src="@Html.DisplayFor(m => Model.ImageUrl)" alt="image" style="width: 100%">
+                </div>
+            </div>
+        </div>
+        <div id="product-detail" class="col-lg-7 col-md-7 col-sm-12">
+            <div id="product-price">
+                <p >
+                    <span class="font-weight-bold"> Gia Ban :</span>
+                    <span class="text-info">@Html.DisplayFor(m => Model.Price)</span>
+                </p>
+                <p >
+                    <span class="font-weight-bold"> Giam gia :</span>
+                    <span class="text-info"> @Html.DisplayFor(m => Model.Price)</span>
+                </p>
+            </div>
+            <div id="product-address">
+                <div id="product-contact" style="padding: 10px; border: 2px dashed #009ccc; margin-top: 20px">
+                    <p class="font-weight-bold">* Địa chỉ: @Html.DisplayFor(m => Model.Address)</p>
+                    <p >
+                        <span class="font-weight-bold">Điện thoại :</span>
+                        <span class="text-info"> 0983 233 770</span>
+                    </p>
+                    <p >
+                        <span class="font-weight-bold">Hotline :</span>
+                        <span class="text-info"> 096 525 1618</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="product-des" style="padding-top: 25px">
+    <div class="card" style="border-top-width: 0px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px">
+        <h5 class="card-header bg-info">Mô tả</h5>
+    </div>
+    <p>
+        @Html.Raw(ViewBag.Content)
+    </p>
+</div>
+
+

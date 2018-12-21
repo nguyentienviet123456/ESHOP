@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Category";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model List<Models.Entity.Category>
+
+<div class="text-center font-weight-bold">
+    <h2>List Category</h2>
+</div>
+@*<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @using (Html.BeginForm("CreateCategory", "Category", FormMethod.Post))
+        {
+            <div class="col-md-3 col-sm-12 col-xs-12 text-center ">
+                @Html.LabelFor(s => s.CategoryName, new { @class = "control-label" })
+                <span class="required">*</span>
+            </div>
+            <div class="col-md-5 col-sm-12 col-xs-12">
+                @Html.EditorFor(s => s.CategoryName, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <input type="submit" value="Add New" class="btn btn-form float-left" />
+            </div>
+        }   
+    </div>
+</div>*@
+<div>
+    <a href="@Url.Action("CreateNew", "Category")">Create new Category</a>
+</div>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-8 col-md-8 col-sm-12" style="padding-top: 20px">
+            @using (Html.BeginForm("Delete", "Category", new {id = item.Id}))
+            {
+                <div class="col-md-6 col-sm-8 col-xs-6">
+                    @Html.EditorFor(s => item.CategoryName, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <a href="@Url.Action("Edit", "Category", new {id = item.Id})">
+                        @*<button id="edit" value="Edit " class="btn btn-form pull-right">Edit</button>*@
+                        edit
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <input type="submit"  value="Delete" class="btn btn-danger pull-right" />                
+                </div>
+                @Html.HiddenFor(s => item.Id)
+            }
+        </div>
+    }
+</div>
+
+
+
+

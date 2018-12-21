@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Models.Entity.Product>
+
+<div>
+    <div class="category-header">
+        <div>
+            <div class="card" style="border-top-width: 0px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px">
+                <h5 class="card-header bg-info">@ViewBag.CategoryName</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.Raw(ViewBag.Paging)
+</div>
+<div class="slider-product row">
+    @foreach (var item in Model)
+    {
+        <div class="single-product-custom col-lg-6 col-md-6 col-sm-12">
+            <div class="card-product-custom">
+                <div class="card" style="border: none">
+                    <img class="img-fluid img-thumbnail" src="@Html.DisplayFor(m => item.ImageUrl)" alt="image" style="width: 100%; height: 410px">
+                    <div class="card-body text-center" style="padding: 0px">
+                        <a href="@Url.Action("SingleProduct", "Product", new {id = item.Id })">
+                            <p class="card-text text-dark font-weight-bold">@Html.DisplayFor(m => item.Title)</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

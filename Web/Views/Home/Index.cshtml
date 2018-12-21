@@ -1,0 +1,32 @@
+﻿@{
+    /**/
+
+    ViewBag.Title = "Trang Chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<Web.Models.CategoryProductView>
+
+
+@* region slide custom*@
+<div class="slide-custom">
+    @Html.Partial("_Slide")
+</div>
+@* end region*@
+
+@* region content*@
+<div class="content-custom row">
+    @* region sidebar*@
+    <div class="sidebar-custon col-md-3">
+        @Html.Partial("_Sidebar")
+    </div>
+    @* end region*@
+
+    @* region main-content*@
+    <div class="main-content-custom col-md-9">
+        @Html.Partial("_TopSellerPro", Model)
+    </div>
+    @* end region *@
+</div>
+@* end region *@
+

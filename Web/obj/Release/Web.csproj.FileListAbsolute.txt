@@ -1,0 +1,170 @@
+E:\Project\ESHOP\Web\bin\ApplicationInsights.config
+E:\Project\ESHOP\Web\bin\Web.dll.config
+E:\Project\ESHOP\Web\bin\Web.dll
+E:\Project\ESHOP\Web\bin\Web.pdb
+E:\Project\ESHOP\Web\bin\Antlr3.Runtime.dll
+E:\Project\ESHOP\Web\bin\AutoMapper.dll
+E:\Project\ESHOP\Web\bin\Business.dll
+E:\Project\ESHOP\Web\bin\CommonServiceLocator.dll
+E:\Project\ESHOP\Web\bin\DataAccess.dll
+E:\Project\ESHOP\Web\bin\EntityFramework.dll
+E:\Project\ESHOP\Web\bin\EntityFramework.SqlServer.dll
+E:\Project\ESHOP\Web\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project\ESHOP\Web\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project\ESHOP\Web\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project\ESHOP\Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project\ESHOP\Web\bin\Microsoft.AI.Web.dll
+E:\Project\ESHOP\Web\bin\Microsoft.AI.WindowsServer.dll
+E:\Project\ESHOP\Web\bin\Microsoft.ApplicationInsights.dll
+E:\Project\ESHOP\Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Project\ESHOP\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\ESHOP\Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\ESHOP\Web\bin\Models.dll
+E:\Project\ESHOP\Web\bin\MySql.Data.dll
+E:\Project\ESHOP\Web\bin\MySql.Data.Entity.EF6.dll
+E:\Project\ESHOP\Web\bin\Newtonsoft.Json.dll
+E:\Project\ESHOP\Web\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Project\ESHOP\Web\bin\System.Net.Http.Formatting.dll
+E:\Project\ESHOP\Web\bin\System.Web.Helpers.dll
+E:\Project\ESHOP\Web\bin\System.Web.Http.dll
+E:\Project\ESHOP\Web\bin\System.Web.Http.WebHost.dll
+E:\Project\ESHOP\Web\bin\System.Web.Mvc.dll
+E:\Project\ESHOP\Web\bin\System.Web.Optimization.dll
+E:\Project\ESHOP\Web\bin\System.Web.Razor.dll
+E:\Project\ESHOP\Web\bin\System.Web.WebPages.Deployment.dll
+E:\Project\ESHOP\Web\bin\System.Web.WebPages.dll
+E:\Project\ESHOP\Web\bin\System.Web.WebPages.Razor.dll
+E:\Project\ESHOP\Web\bin\Unity.Abstractions.dll
+E:\Project\ESHOP\Web\bin\Unity.Configuration.dll
+E:\Project\ESHOP\Web\bin\Unity.Container.dll
+E:\Project\ESHOP\Web\bin\Unity.Interception.Configuration.dll
+E:\Project\ESHOP\Web\bin\Unity.Interception.dll
+E:\Project\ESHOP\Web\bin\Unity.Mvc5.dll
+E:\Project\ESHOP\Web\bin\Unity.RegistrationByConvention.dll
+E:\Project\ESHOP\Web\bin\Unity.ServiceLocation.dll
+E:\Project\ESHOP\Web\bin\WebGrease.dll
+E:\Project\ESHOP\Web\bin\Business.pdb
+E:\Project\ESHOP\Web\bin\Business.dll.config
+E:\Project\ESHOP\Web\bin\DataAccess.pdb
+E:\Project\ESHOP\Web\bin\DataAccess.dll.config
+E:\Project\ESHOP\Web\bin\Models.pdb
+E:\Project\ESHOP\Web\bin\Models.dll.config
+E:\Project\ESHOP\Web\bin\Antlr3.Runtime.pdb
+E:\Project\ESHOP\Web\bin\AutoMapper.xml
+E:\Project\ESHOP\Web\bin\CommonServiceLocator.pdb
+E:\Project\ESHOP\Web\bin\EntityFramework.xml
+E:\Project\ESHOP\Web\bin\EntityFramework.SqlServer.xml
+E:\Project\ESHOP\Web\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project\ESHOP\Web\bin\Microsoft.AI.Web.xml
+E:\Project\ESHOP\Web\bin\Microsoft.AI.WindowsServer.xml
+E:\Project\ESHOP\Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Project\ESHOP\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\ESHOP\Web\bin\Newtonsoft.Json.xml
+E:\Project\ESHOP\Web\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Project\ESHOP\Web\bin\System.Net.Http.Formatting.xml
+E:\Project\ESHOP\Web\bin\System.Web.Helpers.xml
+E:\Project\ESHOP\Web\bin\System.Web.Http.xml
+E:\Project\ESHOP\Web\bin\System.Web.Http.WebHost.xml
+E:\Project\ESHOP\Web\bin\System.Web.Mvc.xml
+E:\Project\ESHOP\Web\bin\System.Web.Optimization.xml
+E:\Project\ESHOP\Web\bin\System.Web.Razor.xml
+E:\Project\ESHOP\Web\bin\System.Web.WebPages.xml
+E:\Project\ESHOP\Web\bin\System.Web.WebPages.Deployment.xml
+E:\Project\ESHOP\Web\bin\System.Web.WebPages.Razor.xml
+E:\Project\ESHOP\Web\bin\Unity.Abstractions.pdb
+E:\Project\ESHOP\Web\bin\Unity.Configuration.pdb
+E:\Project\ESHOP\Web\bin\Unity.Container.pdb
+E:\Project\ESHOP\Web\bin\Unity.Interception.pdb
+E:\Project\ESHOP\Web\bin\Unity.Interception.Configuration.pdb
+E:\Project\ESHOP\Web\bin\Unity.RegistrationByConvention.pdb
+E:\Project\ESHOP\Web\bin\Unity.ServiceLocation.pdb
+E:\Project\ESHOP\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
+E:\Project\ESHOP\Web\obj\Release\Web.csproj.CoreCompileInputs.cache
+E:\Project\ESHOP\Web\obj\Release\Web.csproj.CopyComplete
+E:\Project\ESHOP\Web\obj\Release\Web.dll
+E:\Project\ESHOP\Web\obj\Release\Web.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\ApplicationInsights.config
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Web.dll.config
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Web.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Web.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Antlr3.Runtime.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\AutoMapper.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Business.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\CommonServiceLocator.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\DataAccess.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\EntityFramework.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\EntityFramework.SqlServer.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.DependencyCollector.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.Web.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.WindowsServer.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.ApplicationInsights.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.Web.Infrastructure.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Models.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\MySql.Data.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\MySql.Data.Entity.EF6.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Newtonsoft.Json.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Diagnostics.DiagnosticSource.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Net.Http.Formatting.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Helpers.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Http.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Http.WebHost.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Mvc.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Optimization.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Razor.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.WebPages.Deployment.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.WebPages.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.WebPages.Razor.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Abstractions.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Configuration.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Container.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Interception.Configuration.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Interception.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Mvc5.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.RegistrationByConvention.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.ServiceLocation.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\WebGrease.dll
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Business.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Business.dll.config
+D:\USB Drive\Project\Project\ESHOP\Web\bin\DataAccess.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\DataAccess.dll.config
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Models.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Models.dll.config
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Antlr3.Runtime.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\AutoMapper.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\CommonServiceLocator.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\EntityFramework.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\EntityFramework.SqlServer.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.DependencyCollector.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.Web.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AI.WindowsServer.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Newtonsoft.Json.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Diagnostics.DiagnosticSource.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Net.Http.Formatting.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Helpers.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Http.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Http.WebHost.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Mvc.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Optimization.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.Razor.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.WebPages.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.WebPages.Deployment.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\System.Web.WebPages.Razor.xml
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Abstractions.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Configuration.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Container.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Interception.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.Interception.Configuration.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.RegistrationByConvention.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\bin\Unity.ServiceLocation.pdb
+D:\USB Drive\Project\Project\ESHOP\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
+D:\USB Drive\Project\Project\ESHOP\Web\obj\Release\Web.csproj.CoreCompileInputs.cache
+D:\USB Drive\Project\Project\ESHOP\Web\obj\Release\Web.csproj.CopyComplete
+D:\USB Drive\Project\Project\ESHOP\Web\obj\Release\Web.dll
+D:\USB Drive\Project\Project\ESHOP\Web\obj\Release\Web.pdb

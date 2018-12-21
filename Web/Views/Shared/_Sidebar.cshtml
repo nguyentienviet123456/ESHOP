@@ -1,0 +1,201 @@
+﻿<div id="category" class="category">
+    @*<div class="block-title">
+            <h4>Danh muc san pham</h4>
+        </div>*@
+    <div class="box-content box-category">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h5 >Danh mục sản phẩm</h5>
+            <button class="navbar-toggler d-md-none d-lg-none d-xl-none" type="button" data-toggle="collapse" data-target="#test" aria-controls="test" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <!-- for mobile only -->
+        <div class="collapse navbar-collapse" id="test">
+            <ul class="list-group" id="sidebar-dropdown-category">
+
+                @*@foreach (var element in )
+                    {
+                        <li class="list-group-item" style="border-left-width: 0px; border-right-width: 0px">
+                            <a href="#">
+                                @Html.DisplayFor(m => element.CategoryName)
+                            </a>
+                        </li>
+                    }*@
+            </ul>
+        </div>
+        <!-- end -->
+    </div>
+
+    <div class="d-none d-md-block">
+        <ul class="list-group" id="sidebar-dropdown-category-web">
+            @*@foreach (var element in Model.Item1)
+                {
+                    <li class="list-group-item" style="border-left-width: 0px; border-right-width: 0px">
+                        <a href="#">
+                            @Html.DisplayFor(m => element.CategoryName)
+                        </a>
+                    </li>
+                }*@
+        </ul>
+    </div>
+    <!-- end -->
+</div>
+<div id="support-online" class="box-support-online">
+    @*<div class="box-title">
+            <h4>Hỗ trợ trực tuyến</h4>
+        </div>*@
+    <div class="box-content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h5>Hỗ trợ trực tuyến</h5>
+            <button class="navbar-toggler d-md-none d-lg-none d-xl-none" type="button" data-toggle="collapse" data-target="#box-content" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <!-- for mobile only -->
+        <div class="collapse navbar-collapse text-center" id="box-content">
+            <br />
+            <span>Mr. Hòa</span>
+            <br />
+            ĐT: 02433255652 - 0966668382
+            <br />
+            Email: <a href="#">dogohuyminh@gmail.com</a>
+        </div>
+        <!-- end -->
+    </div>
+    <div class="d-none d-md-block d-xs-block text-center">
+        <br />
+        <span>Mr. Hòa</span>
+        <br />
+        ĐT: 02433255652 - 0966668382
+        <br />
+        Email: <a href="#">dogohuyminh@gmail.com</a>
+    </div>
+</div>
+<div id="form-price" class="box-support-online">
+    @*<div class="box-title">
+            <h4>Đăng ký nhận báo giá</h4>
+        </div>*@
+    <div class="box-form">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h5>Nhận báo giá</h5>
+            <button class="navbar-toggler d-md-none d-lg-none d-xl-none" type="button" data-toggle="collapse" data-target="#box-form" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <!-- for mobile only -->
+        <div class="collapse navbar-collapse" id="box-form">
+            <form class="form" role="form" autocomplete="off">
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName-mobile" placeholder="full name">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3">Email</label>
+                    <input type="email" class="form-control" id="inputEmail-mobile" placeholder="email@gmail.com" required="">
+                </div>
+                <div class="form-group">
+                    <label for="inputPhone">Phone</label>
+                    <input type="number" class="form-control" id="inputPhone-mobile" placeholder="0123456789" required="">
+                </div>
+                <div class="form-group">
+                    <label for="inputNote">Note</label>
+                    <textarea type="text" class="form-control" id="inputNote-mobile" placeholder="Note" required="">
+                        </textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Register</button>
+            </form>
+        </div>
+        <!-- end -->
+    </div>
+    <div class="d-none d-md-block">
+        <div class="form-group">
+            <label for="inputName">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="full name" required>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="email@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="inputPhone">Phone</label>
+            <input type="number" class="form-control" id="inputPhone" placeholder="0123456789" required>
+        </div>
+        <div class="form-group">
+            <label for="inputNote">Note</label>
+            <textarea type="text" class="form-control" id="inputNote" placeholder="Note" required>
+                </textarea>
+        </div>
+        <button class="btn btn-success" onclick="registerWeb()">Register</button>
+    </div>
+</div>
+<div id="news" class="news">
+    @*<div class="box-title">
+            <h4>Tin tức</h4>
+        </div>*@
+    <div class="box-news">
+        <div class="box-form">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <h5>Tin tức</h5>
+                <button class="navbar-toggler d-md-none d-lg-none d-xl-none" type="button" data-toggle="collapse" data-target="#box-news" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <!-- for mobile only-->
+            <div class="collapse navbar-collapse" id="box-news">
+                <div class="block-content">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar3.png" alt="Card image cap">
+                        <div class="card-body text-center" style="padding: 0px">
+                            <h5 class="card-title" style="margin-bottom: 0px">Card title</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end -->
+        </div>
+    </div>
+    <div class="d-none d-md-block .d-sm-none ">
+        <div class="block-content">
+            <div class="card" id="card-custom">
+                @*<img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar3.png" alt="Card image cap">
+                    <div class="card-body text-center" style="padding: 0px">
+                        <h5 class="card-title" style="margin-bottom: 0px">Card title</h5>
+                    </div>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var url = "/Register/Register";
+
+
+    var dataMobile = {
+        FullName: $("#inputName-mobile").val(),
+        Phone: $("#inputEmail-mobile").val(),
+        Email: $("#inputPhone-mobile").val(),
+        Note: $("#inputNote-mobile").val(),
+    }
+
+    function registerWeb() {
+        var data = {
+            FullName: $("#inputName").val(),
+            Email: $("#inputEmail").val(),
+            Phone: $("#inputPhone").val(),
+            Note: $("#inputNote").val()
+        }
+        console.log("test");
+        $.ajax({
+            url: url,
+            type: 'POST',
+            data: data,
+            success: function (response) {
+                alert("register successfully !");
+                console.log(response.result);
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.log('Error in Operation');
+            }
+        });
+    }
+</script>

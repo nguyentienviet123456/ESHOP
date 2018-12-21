@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Models.Entity.News>
+
+<div>
+    <div class="category-header">
+        <div>
+            <div class="card" style="border-top-width: 0px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px">
+                <h5 class="card-header"> Tat ca cac tin tuc</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.Raw(ViewBag.Paging)
+</div>
+<div class="slider-product row">
+    @foreach (var item in Model)
+    {
+        <div class="single-product-custom col-lg-3 col-md-4 col-sm-12">
+            <div class="card-product-custom">
+                <div class="card">
+                    <img class="card-img-top" src="@Html.DisplayFor(m => item.ImageUrl)" alt="image" style="width:100%">
+                    <div class="card-body" style="padding: 0px">
+                        <a href="@Url.Action("GetSingleNews","News", new{id = item.Id})">
+                            <p class="card-text">@Html.DisplayFor(m => item.Title)</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

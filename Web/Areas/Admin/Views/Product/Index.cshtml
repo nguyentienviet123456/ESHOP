@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<Models.Entity.Category>
+<div class="text-center font-weight-bold">
+    <h2>Create Product</h2>
+</div>
+
+<a href="@Url.Action("AddProduct", "Product")">Create Product</a>
+<h4>
+    List Category
+</h4>
+<div class="row">
+    <div class="col-sm-6 col-md-6">
+        <ul class="list-group">
+            @foreach (var item in Model)
+            {
+                <li class="list-group-item">
+                    <a href="@Url.Action("View", "Category", new {id = item.Id })"> @Html.DisplayFor(m => item.CategoryName)</a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,36 @@
+E:\Project\ESHOP\Business\bin\Release\Business.dll.config
+E:\Project\ESHOP\Business\bin\Release\Business.dll
+E:\Project\ESHOP\Business\bin\Release\Business.pdb
+E:\Project\ESHOP\Business\bin\Release\DataAccess.dll
+E:\Project\ESHOP\Business\bin\Release\EntityFramework.dll
+E:\Project\ESHOP\Business\bin\Release\EntityFramework.SqlServer.dll
+E:\Project\ESHOP\Business\bin\Release\Models.dll
+E:\Project\ESHOP\Business\bin\Release\DataAccess.pdb
+E:\Project\ESHOP\Business\bin\Release\DataAccess.dll.config
+E:\Project\ESHOP\Business\bin\Release\Models.pdb
+E:\Project\ESHOP\Business\bin\Release\Models.dll.config
+E:\Project\ESHOP\Business\bin\Release\EntityFramework.xml
+E:\Project\ESHOP\Business\bin\Release\EntityFramework.SqlServer.xml
+E:\Project\ESHOP\Business\obj\Release\Business.csprojResolveAssemblyReference.cache
+E:\Project\ESHOP\Business\obj\Release\Business.csproj.CoreCompileInputs.cache
+E:\Project\ESHOP\Business\obj\Release\Business.csproj.CopyComplete
+E:\Project\ESHOP\Business\obj\Release\Business.dll
+E:\Project\ESHOP\Business\obj\Release\Business.pdb
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\Business.dll.config
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\Business.dll
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\Business.pdb
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\DataAccess.dll
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\EntityFramework.dll
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\EntityFramework.SqlServer.dll
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\Models.dll
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\DataAccess.pdb
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\DataAccess.dll.config
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\Models.pdb
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\Models.dll.config
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\EntityFramework.xml
+D:\USB Drive\Project\Project\ESHOP\Business\bin\Release\EntityFramework.SqlServer.xml
+D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.csprojResolveAssemblyReference.cache
+D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.csproj.CoreCompileInputs.cache
+D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.csproj.CopyComplete
+D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.dll
+D:\USB Drive\Project\Project\ESHOP\Business\obj\Release\Business.pdb

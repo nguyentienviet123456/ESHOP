@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@*<div class="form-horizontal">
+        <div class="modal-body">
+            <div class="form-group" style="float: none">
+                <div class="col-md-3">
+                    <input type="file" id="uploadfile" name="file" class="form-control" style="display: none" />
+                    <label for="uploadfile" class="btn btn-primary">Choose File</label>
+                </div>
+                <div class="col-md-9">
+                    <label class="control-label" id="file-name"></label>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary" onclick="confirmAction(event)">
+               Upload
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('#uploadfile').change(function () {
+            $('#file-name').text($('#uploadfile').val().replace(/^.*[\\\/]/, ''));
+            $("#file-name").css("color", "");
+        });
+    </script>*@
+@model IEnumerable<Web.Areas.Admin.Models.ViewImageModel>
+<div class="row">
+    <a href="@Url.Action("PrepareSearch")"><h3>Search Image By Name</h3></a>
+</div>
+<div>
+    <h2>UploadFile</h2>
+    @using (Html.BeginForm("Upload", "Image", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div>
+            @Html.TextBox("file", "", new { type = "file" }) <br />
+            <input type="submit" value="Upload" />
+        </div>
+    }
+</div>
+@Html.Raw(ViewBag.Paging)
+<div class="slider-product row" style="padding-top: 50px">
+    @foreach (var item in Model)
+    {
+        <div class="single-product-custom col-lg-3 col-md-4 col-sm-12">
+            <div class="card-product-custom">
+                <div class="card" style="border: none">
+                    <div>
+                        <img class="img-fluid img-thumbnail" src="@Html.DisplayFor(m => item.Url)" alt="@Html.DisplayFor(m => item.Name)" style="width: 100%;height: 185px;">
+                    </div>
+                    <div class="card-body text-center" style="padding: 0px">
+                        <a href="#">
+                            <p class="card-text text-dark font-weight-bold">@Html.DisplayFor(m => item.Name)</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<script>
+    function sendRequest() {
+        var data =
+        {
+            key: $('#key').val()
+        };
+        var url = "@Html.Raw(Url.Action("Search"))";
+        $.ajax({
+            url: url,
+            type: 'POST',
+            data: data,
+            success: function () {
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.log('Error in Operation');
+            }
+        });
+    };
+</script>
