@@ -18,6 +18,7 @@ namespace Web.Factory
             container.RegisterType<ICategoryBusiness, CategoryBusiness>();
             container.RegisterType<INewsBusiness, NewsBusiness>();
             container.RegisterType<IRegisterBusiness, RegisterBusiness>();
+            container.RegisterType<IIntroduceBusiness, IntroduceBusiness>();
         }
     }
 }
