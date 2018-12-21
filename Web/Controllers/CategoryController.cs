@@ -12,7 +12,7 @@ namespace Web.Controllers
     [AllowAnonymous]
     public class CategoryController : Controller
     {
-        Paging pg = new Paging();
+        PagingSeo pg = new PagingSeo();
         private readonly ICategoryBusiness _categoryBusiness;
         private readonly IProductBusiness _productBusiness;
         public CategoryController(ICategoryBusiness categoryBusiness, IProductBusiness productBusiness)
@@ -31,10 +31,11 @@ namespace Web.Controllers
         }
 
         [HttpGet]
-        public ActionResult View(int id)
+        public ActionResult View(int id, string categoryName)
         {
             string actionName = this.ControllerContext.RouteData.Values["action"].ToString();
-            string controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
+            //string controllerName = this.ControllerContext.RouteData.Values["controller"].ToString();
+            string controllerName = "danh-muc-san-pham";
             int offset = 1;
             int Page = 1;
             int Take = 8;
@@ -53,10 +54,18 @@ namespace Web.Controllers
             var products = _productBusiness.GetProductsByCategoryid(id).Skip(skip).Take(Take);
             var totalProducts = _productBusiness.GetProductsByCategoryid(id).Count();
             
-            string paging = pg.Pagination(totalProducts, Page, Take, offset, controllerName + "/",actionName, "/" + id);
+            string paging = pg.PaginationSeo(totalProducts, Page, Take, offset, controllerName + "/",actionName, "" + id, category.CategoryName.ConvertToUnSign3().ToSeoUrl());
             ViewBag.CategoryName = category.CategoryName;
             ViewBag.Paging = paging;
             ViewBag.Title = ViewBag.CategoryName;
+            string expectedName = category.CategoryName.ConvertToUnSign3().ToSeoUrl();
+            string actualName = (categoryName ?? "").ToLower();
+
+            // permanently redirect to the correct URL
+            if (expectedName != actualName)
+            {
+                return RedirectToActionPermanent("View", "Category", new { id = category.Id, productName = expectedName });
+            }
             return View(products.ToList());
         }
     }

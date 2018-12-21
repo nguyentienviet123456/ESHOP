@@ -14,11 +14,20 @@ namespace Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                "Category",
+                "danh-muc-san-pham/{id}/{categoryName}",
+                new { controller = "Category", action = "View", id = UrlParameter.Optional, categoryName = UrlParameter.Optional },
+                new[] { "Web.Controllers" }
+            );
+
+            routes.MapRoute(
                 "Product",
                 "san-pham/{id}/{productName}",
                 new { controller = "Product", action = "SingleProduct", id = UrlParameter.Optional, productName = UrlParameter.Optional },
                 new[] { "Web.Controllers" }
             );
+
+         
 
             routes.MapRoute(
                 name: "Default",

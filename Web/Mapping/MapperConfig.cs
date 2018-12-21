@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using Web.Areas.Admin.Models;
 using Web.Models;
+using Web.Models.Introduce;
 using Web.Models.ProductModel;
 
 namespace Web.Mapping
@@ -20,6 +21,7 @@ namespace Web.Mapping
                 cfg.CreateMap<Category, CategoryView>();
                 cfg.CreateMap<Product, AddProductModel>();
                 cfg.CreateMap<AddProductModel, Product>();
+                cfg.CreateMap<IntroduceViewModel, Introduce>();
             });
         }
     }

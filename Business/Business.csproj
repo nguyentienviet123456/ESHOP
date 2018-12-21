@@ -48,10 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implement\CategoryBusiness.cs" />
+    <Compile Include="Implement\IntroduceBusiness.cs" />
     <Compile Include="Implement\NewsBusiness.cs" />
     <Compile Include="Implement\ProductBusiness.cs" />
     <Compile Include="Implement\RegisterBusiness.cs" />
     <Compile Include="Interface\ICategoryBusiness.cs" />
+    <Compile Include="Interface\IIntroduceBusiness.cs" />
     <Compile Include="Interface\INewsBusiness.cs" />
     <Compile Include="Interface\IProductBusiness.cs" />
     <Compile Include="Interface\IRegisterBusiness.cs" />

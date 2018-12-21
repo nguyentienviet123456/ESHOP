@@ -23,7 +23,7 @@ namespace Web
             // remove duplicates
             encodedUrl = Regex.Replace(encodedUrl, @"-+", "-");
 
-            // trim leading & trailing characters
+            // trim leading & trailing charactersstrin
             encodedUrl = encodedUrl.Trim('-');
 
             return encodedUrl;
