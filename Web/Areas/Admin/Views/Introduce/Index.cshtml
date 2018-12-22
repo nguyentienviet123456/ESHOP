@@ -1,0 +1,33 @@
+﻿@model Web.Areas.Admin.Models.AddIntroduceModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Areas/Admin/Plugin/ckeditor/ckeditor.js"></script>
+
+<div class="text-center font-weight-bold">
+    <h2>Create Introduce</h2>
+</div>
+
+@using (Html.BeginForm("AddIntroduce", "Introduce", FormMethod.Post))
+{
+    <div class="row form-horizontal">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                <div class="col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(s => s.Content, new { @class = "control-label" })
+                    <span class="required">*</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            @Html.TextAreaFor(s => s.Content, new { @class = "control-label", @id = "content" })
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <input type="submit" value="Add New" class="btn btn-form" />
+        </div>
+    </div>
+    @Html.HiddenFor(s => s.Id)
+}
+    <script>CKEDITOR.replace("content");</script>
+

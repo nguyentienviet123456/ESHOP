@@ -22,3 +22,15 @@ D:\USB Drive\Project\Project\ESHOP\Models\obj\Release\Models.csproj.CoreCompileI
 D:\USB Drive\Project\Project\ESHOP\Models\obj\Release\Models.csproj.CopyComplete
 D:\USB Drive\Project\Project\ESHOP\Models\obj\Release\Models.dll
 D:\USB Drive\Project\Project\ESHOP\Models\obj\Release\Models.pdb
+C:\project\ESHOP\Models\bin\Release\Models.dll.config
+C:\project\ESHOP\Models\bin\Release\Models.dll
+C:\project\ESHOP\Models\bin\Release\Models.pdb
+C:\project\ESHOP\Models\bin\Release\EntityFramework.dll
+C:\project\ESHOP\Models\bin\Release\EntityFramework.SqlServer.dll
+C:\project\ESHOP\Models\bin\Release\EntityFramework.xml
+C:\project\ESHOP\Models\bin\Release\EntityFramework.SqlServer.xml
+C:\project\ESHOP\Models\obj\Release\Models.csprojAssemblyReference.cache
+C:\project\ESHOP\Models\obj\Release\Models.csproj.CoreCompileInputs.cache
+C:\project\ESHOP\Models\obj\Release\Models.csproj.CopyComplete
+C:\project\ESHOP\Models\obj\Release\Models.dll
+C:\project\ESHOP\Models\obj\Release\Models.pdb

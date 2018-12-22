@@ -12,7 +12,8 @@ namespace Web.Models
             if (total > 0)
             {
                 string c_url = HttpContext.Current.Request.Url.AbsoluteUri.ToLower();
-                string URL = c_url.Substring(0, c_url.IndexOf(Controler.ToLower(), StringComparison.Ordinal));
+                //string URL = c_url.Substring(0, c_url.IndexOf(Controler.ToLower(), StringComparison.Ordinal));
+                string URL = HttpContext.Current.Request.Url.Authority;
                 double rowPerPage = Take;
                 if (Convert.ToDouble(total) < Take)
                 {

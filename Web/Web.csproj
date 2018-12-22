@@ -198,14 +198,17 @@
     <Compile Include="Areas\Admin\Controllers\ErrorController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\ImageController.cs" />
+    <Compile Include="Areas\Admin\Controllers\IntroduceController.cs" />
     <Compile Include="Areas\Admin\Controllers\LoginController.cs" />
     <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
     <Compile Include="Areas\Admin\Controllers\UnauthorizedController.cs" />
+    <Compile Include="Areas\Admin\Models\AddIntroduceModel.cs" />
     <Compile Include="Areas\Admin\Models\AddProductModel.cs" />
     <Compile Include="Areas\Admin\Models\AuthenticationModel.cs" />
     <Compile Include="Areas\Admin\Models\ViewImageModel.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IntroduceController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
@@ -215,10 +218,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\StringHelpers.cs" />
     <Compile Include="Mapping\MapperConfig.cs" />
     <Compile Include="Models\CategoryProductView.cs" />
     <Compile Include="Models\CategoryView.cs" />
+    <Compile Include="Models\Introduce\IntroduceViewModel.cs" />
     <Compile Include="Models\News\NewsView.cs" />
+    <Compile Include="Models\PagingSeo.cs" />
     <Compile Include="Models\ProductModel\ProductView.cs" />
     <Compile Include="Models\Register\RegisterPost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -753,6 +759,7 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Areas\Admin\Views\Category\View.cshtml" />
     <Content Include="Areas\Admin\Views\Product\EditProduct.cshtml" />
+    <Content Include="Areas\Admin\Views\Introduce\Index.cshtml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\VietEShopAppName - Web Deploy.pubxml" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -837,6 +844,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Introduce\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
